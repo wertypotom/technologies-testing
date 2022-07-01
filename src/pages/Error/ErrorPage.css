@@ -1,0 +1,37 @@
+.error-container {
+  background-color: #000;
+  font-family: "Hack", monospace;
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.error,
+.link {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.error {
+  margin-top: -35px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 2rem;
+}
+
+.link {
+  margin-top: 5px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 1.4rem;
+}

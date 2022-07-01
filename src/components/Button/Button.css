@@ -1,0 +1,20 @@
+.button {
+  padding: 10px;
+  border-radius: 20px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.button.filled {
+  background-color: rgba(203, 194, 184, 0.29);
+}
+
+.button.outlined {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.button:hover {
+  background-color: #555555;
+  color: white;
+}
